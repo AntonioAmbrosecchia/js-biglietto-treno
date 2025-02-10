@@ -23,11 +23,11 @@ let pricekm_mn = 0.16;
 let pricekm_old = 0.12;
 
 if (windowpromptage <= 17) {
-    console.log(pricekm_mn * windowpromptkm)
+    console.log(pricekm_mn.toFixed(2) * windowpromptkm)
 
 } else if (windowpromptage >= 65) {
-    console.log(pricekm_old * windowpromptkm)
+    console.log(pricekm_old.toFixed(2) * windowpromptkm)
 
 } else {
-    console.log(pricekm * windowpromptkm)
+    console.log(pricekm.toFixed(2) * windowpromptkm)
 }
