@@ -16,13 +16,18 @@ console.log(windowpromptage);
 
 
 
-let costskm = windowpromptkm * 0.21;
+let pricekm = 0.21;
 
-let costskm_mn = windowpromptkm * 0.16;
+let pricekm_mn = 0.16;
 
-let costskm_old = windowpromptkm * 0.12;
+let pricekm_old = 0.12;
 
-if (windowpromptage < 18) {
-    console.log(costskm_mn * windowpromptkm)
+if (windowpromptage <= 17) {
+    console.log(pricekm_mn * windowpromptkm)
 
+} else (windowpromptage >= 65) {
+    console.log(pricekm_old * windowpromptkm)
+
+}else (windowpromptage <= 64) {
+    console.log(pricekm * windowpromptkm)
 }
