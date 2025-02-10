@@ -14,3 +14,7 @@ console.log(windowpromptkm);
 const windowpromptage = prompt("Quanti anni ha il passeggero?");
 console.log(windowpromptage);
 
+
+
+let coststiket = windowpromptkm * 0.21;
+console.log(coststiket)
