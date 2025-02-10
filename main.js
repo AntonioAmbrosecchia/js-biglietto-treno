@@ -25,9 +25,9 @@ let pricekm_old = 0.12;
 if (windowpromptage <= 17) {
     console.log(pricekm_mn * windowpromptkm)
 
-} else (windowpromptage >= 65) {
+} else if (windowpromptage >= 65) {
     console.log(pricekm_old * windowpromptkm)
 
-}else (windowpromptage <= 64) {
+} else {
     console.log(pricekm * windowpromptkm)
 }
