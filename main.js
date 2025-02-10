@@ -16,5 +16,13 @@ console.log(windowpromptage);
 
 
 
-let coststiket = windowpromptkm * 0.21;
-console.log(coststiket)
+let costskm = windowpromptkm * 0.21;
+
+let costskm_mn = windowpromptkm * 0.16;
+
+let costskm_old = windowpromptkm * 0.12;
+
+if (windowpromptage < 18) {
+    console.log(costskm_mn * windowpromptkm)
+
+}
